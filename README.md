@@ -1,1 +1,1 @@
-Es6 basics 
+es6 classes
