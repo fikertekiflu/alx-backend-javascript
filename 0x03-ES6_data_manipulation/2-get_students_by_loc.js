@@ -1,8 +1,6 @@
-const getStudentIdsSum = (students) => {
-  const id = students.reduce(
-    (acc, value) => acc + value.id, 0,
-  );
-  return id;
+const getStudentsByLocation = (students, city) => {
+  const arratyObjec = students.filter((funtion) => funtion.location === city);
+  return arratyObjec;
 };
 
-export default getStudentIdsSum;
+export default getStudentsByLocation;
